@@ -1,0 +1,10 @@
+name: lint-flake8
+
+on: push
+
+jobs:
+  lint-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: lint-step
+        run: make lint
