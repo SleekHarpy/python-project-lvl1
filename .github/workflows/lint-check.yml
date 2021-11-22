@@ -1,4 +1,4 @@
-name: lint-flake8
+name: Lint test
 
 on: push
 
