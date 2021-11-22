@@ -3,7 +3,7 @@ name: lint-flake8
 on: push
 
 jobs:
-  lint-job:
+  build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
